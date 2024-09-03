@@ -12,7 +12,7 @@ def envoyer_newsletter(liste_destinataires, sujet, corps_html):
     coprs_html(str): le coprs du message 
     """
     email_expéditeur = "sabre22@live.fr"
-    mot_de_passe = "-@4>>(b9)@o;^=DKN9s+?DNz%)Kdh_"
+    mot_de_passe = ""
     serveur_smtp = "smtp.office365.com" # pour gmail: "smtp.gmail.com"
     port_smtp = 587 # STARTTLS est une commande qui permet de sécuriser une connexion SMTP en passant d'une connexion non chiffrée à une connexion chiffrée (TLS/SSL) en cours de route.
 
